@@ -1,0 +1,28 @@
+* {
+  margin:0;
+  pading: 0;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  color: darkgreen;
+}
+
+a,
+.btn {
+  transition: all 300ms, ease;
+}
+
+/* DESKTOP NAV */
+
+nav {
+  display: flex;
+
+}
