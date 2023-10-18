@@ -1,6 +1,6 @@
 * {
   margin:0;
-  pading: 0;
+  padding: 0;
 }
 
 body {
@@ -22,12 +22,62 @@ a,
 
 /* DESKTOP NAV */
 
-nav {
-  display: flex;
-
-}
-
 svg {
   width: 30px;
   height: 30px;
 }
+
+.logo {
+display: flex;
+align-items: flex-end;
+padding: 0.2rem;
+justify-content: space-between;
+gap: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  padding-bottom: 30px;
+}
+
+nav a {
+  display: block;
+  align-items: center;
+  padding: 10px;
+  list-style: none;
+  padding: .5rem 1rem;
+  text-decoration: none;
+  border: 2px #495194 solid;
+  background-color: black;
+  gap: 5px;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  gap: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+/* HERO SECTION */
+.hero-container h1 {
+  font-size: 70px;
+}
+
+#hero {
+  display: flex;
+}
+
+.hero-img {
+  height: 400px;
+  width: 400px
+}
+
+
+
